@@ -64,4 +64,4 @@ typings/
 
 # End of https://www.gitignore.io/api/node
 
-src/secrets.js
+rethinkdb_data
