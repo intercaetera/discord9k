@@ -1,0 +1,25 @@
+{
+  "name": "discord9k",
+  "version": "1.0.0",
+  "description": "A robot9k bot for Discord.",
+  "main": "app.js",
+  "author": "MrHudson",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "*",
+    "babel-preset-latest": "*",
+    "babel-register": "*"
+  },
+  "dependencies": {
+    "discord.js": "^11.1.0",
+    "thinky": "^2.3.8"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "babel": {
+    "presets": [
+      "latest"
+    ]
+  }
+}
