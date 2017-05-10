@@ -17,7 +17,7 @@
     "thinky": "^2.3.8"
   },
   "scripts": {
-    "start": "rethinkdb & node app.js"
+    "start": "node app.js"
   },
   "babel": {
     "presets": [
