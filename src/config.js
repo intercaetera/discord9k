@@ -6,5 +6,5 @@ export const config = {
 
 export const db = {
   host: 'localhost',
-  port: 29015
+  port: 31015
 }
