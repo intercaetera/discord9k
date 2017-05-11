@@ -119,7 +119,7 @@ client.login(process.env.TOKEN)
 async function getR9K(guild) {
   return new Promise((resolve, reject) => {
     guild.roles.map(role => {
-      if(role.name == 'r9k') {
+      if(role.name === 'r9k') {
         log("Found role " + chalk.green(role.name) + " in " + chalk.blue(guild.name))
         resolve(role)
       }
